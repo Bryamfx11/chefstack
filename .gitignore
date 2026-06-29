@@ -1,0 +1,30 @@
+# ===== Secretos: nunca al repositorio =====
+**/config/secrets.properties
+**/.env
+**/.env.*
+**/serviceAccountKey*.json
+**/firebase-adminsdk*.json
+
+# ===== Pruebas (por decision del proyecto, no se publican) =====
+chefstack-api/src/test/
+chefstack-web/tests/
+chefstack-web/**/*.test.js
+chefstack-web/**/*.spec.js
+
+# ===== Java / Maven =====
+chefstack-api/target/
+*.class
+*.jar
+!**/maven-wrapper.jar
+
+# ===== Node / Vue =====
+chefstack-web/node_modules/
+chefstack-web/dist/
+chefstack-web/.vite/
+
+# ===== Sistema / IDE =====
+.DS_Store
+.idea/
+.vscode/
+*.iml
+*.log
