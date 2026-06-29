@@ -1,0 +1,4 @@
+target/
+config/secrets.properties
+*.log
+.git
