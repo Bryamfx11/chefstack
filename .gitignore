@@ -29,3 +29,6 @@ chefstack-web/.vite/
 .vscode/
 *.iml
 *.log
+
+# guia de credenciales: documento interno del cliente, no va al repo
+docs/Guia-Credenciales-ChefStack.pdf
